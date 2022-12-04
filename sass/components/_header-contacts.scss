@@ -1,0 +1,28 @@
+.top-phone {
+    margin-left: 30px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.contact-top {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--sup-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        color: var(--hover-color);
+    }
+}

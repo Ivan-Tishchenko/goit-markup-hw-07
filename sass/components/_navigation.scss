@@ -1,0 +1,33 @@
+.link-aktive {
+    position: relative;
+
+    &::after {
+        content: " ";
+        background-color: var(--hover-color);
+        height: 4px;
+        width: 100%;
+        border-radius: 2px;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+    }
+}
+
+
+
+.navigation { 
+    li {
+        &+ li {
+            margin-left: 50px;
+        }
+    }
+
+    &-style {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}

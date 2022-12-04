@@ -1,0 +1,23 @@
+.content-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.content-display {
+    display: flex;
+}
+
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+}
+
+.send-container {
+    margin-left: 93px;
+}
